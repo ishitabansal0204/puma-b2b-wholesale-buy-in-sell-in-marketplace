@@ -9,7 +9,8 @@ import {
   ChevronDown, 
   Calendar, 
   UserCheck, 
-  BookOpen
+  BookOpen,
+  FileDown
 } from 'lucide-react';
 
 interface TopNavigationProps {
@@ -110,6 +111,15 @@ export const TopNavigation: React.FC<TopNavigationProps> = ({ onOpenRoleSwitcher
           <span className="text-neutral-400">
             Delivery: <strong className="text-neutral-200 font-mono font-medium">{activeSeason.deliveryWindow}</strong>
           </span>
+          <a
+            href="/PUMA_SS27_B2B_Wholesale_Platform_PRD.docx"
+            download="PUMA_SS27_B2B_Wholesale_Platform_PRD.docx"
+            className="flex items-center gap-1 text-emerald-400 hover:text-emerald-300 transition-colors cursor-pointer bg-emerald-950/40 border border-emerald-800/60 px-2 py-0.5 rounded"
+            title="Download Product Requirements Document (PRD .docx)"
+          >
+            <FileDown className="w-3.5 h-3.5" />
+            <span>PRD (.docx)</span>
+          </a>
           <button 
             onClick={() => setIsCatalogViewerOpen(true)}
             className="flex items-center gap-1 text-cyan-400 hover:text-cyan-300 transition-colors cursor-pointer"

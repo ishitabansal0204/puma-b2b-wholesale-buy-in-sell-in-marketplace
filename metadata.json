@@ -1,0 +1,7 @@
+{
+  "name": "PUMA SS27 B2B Wholesale Buy-In / Sell-In Matrix",
+  "description": "Enterprise digital wholesale platform for PUMA seasonal assortment discovery, availability visibility, size curve order building, and sell-in performance tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

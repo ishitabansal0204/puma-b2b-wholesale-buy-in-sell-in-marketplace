@@ -1,5 +1,7 @@
 # PUMA SS27 B2B Wholesale Buy-In / Sell-In Matrix
 
+Prototype : https://puma-b2b-wholesale-buy-in-sell-in-marketplace.ai.studio/
+
 An enterprise digital wholesale and seasonal assortment platform designed for PUMA Commercial Operations, territory sales representatives, and authorized wholesale distributors.
 
 This platform transitions PUMA's seasonal wholesale workflow from manual Excel spreadsheets, PDFs, WhatsApp messages, and disconnected meetings into a single, high-fidelity digital commerce matrix:
